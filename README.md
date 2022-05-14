@@ -11,4 +11,4 @@ In order to effective run the scrapy code, please follow below steps:
 
 
 
-For Beautiful Soup and Selenium simply run the code in the published files. 
+For Beautiful Soup and Selenium simply run the code in the published files. Best to run from command line using "python [name of the file].py.  
