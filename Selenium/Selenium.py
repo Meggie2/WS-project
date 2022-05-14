@@ -1,13 +1,14 @@
-
+#### IMPORT LIBRARY 
 from selenium import webdriver
 from selenium.webdriver.common.by import By
 import csv
 
+#### WEB DRIVER PATH
 driver = webdriver.Chrome(executable_path=r'/Users/macbookpro/Downloads/chromedriver-2')
 
 
 
-
+####SCRAPE OF HOTELS AND OTHER DETAILS
 def scrap(page, db, count):
     driver.get(page)
     box = driver.find_elements_by_class_name('listing-hotels-details-box')
