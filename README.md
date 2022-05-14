@@ -1,4 +1,4 @@
-# WS-project
+# WS-project Hotels.ng
 
 In order to effective run the scrapy code, please follow below steps. 
 
