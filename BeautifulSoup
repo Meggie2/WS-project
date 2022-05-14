@@ -17,7 +17,7 @@ links=[]
 
 def get_links(url,links):
   html=requests.get(url).text
-  soup=bs(html,'lxml')
+  soup=bs(html,'html.parser')
 
   header=soup.find_all('div',class_='listing-hotels-details-property')
 
@@ -36,7 +36,7 @@ for i in page_urls:
 db=[]
 def extract(link,db):
   html=requests.get(link).text
-  soup=bs(html,'lxml')
+  soup=bs(html,'html.parser')
 
   try:
       rating=soup.find('div',class_='sph-reviews-overview-rating header-section bkgrnd-excellent').text
