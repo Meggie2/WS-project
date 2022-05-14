@@ -1,6 +1,6 @@
 # WS-project
 
-In order to effective run the code, please follow below steps. 
+In order to effective run the scrapy code, please follow below steps. 
 
 1. Make sure you have scrapy installed (pip istall scrapy)
 2. Using command line set working using the "cd [location on your computer]". 
