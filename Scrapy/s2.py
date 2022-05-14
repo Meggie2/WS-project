@@ -23,8 +23,8 @@ class LinkListsSpider(scrapy.Spider):
         p = hotels()
 
         name_xpath        = '//h1/text()'
-        price_xpath = '//*[@id="bookOnline"]/div[1]/div[4]/div[2]/div[1]/div[1]/div[2]/div/p//text()'
-        rating_xpath = '/html/body/main/div[4]/div/div/div/div[1]//text()'
+        price_xpath = '//*[@id="bookOnline"]/div[1]/div[4]/div[2]/div[1]/div[1]/div[2]/div/p[1]//text()'
+        rating_xpath = '//*[@id="reviews"]/div[2]/div[1]/div/div[1]//text()'
         cleanlines_xpath   = '//*[@id="reviews"]/div[2]/div[2]/div[1]/p[2]//text()'
         comfort_xpath       = '//*[@id="reviews"]/div[2]/div[2]/div[2]/p[2]//text()'
         service_xpath       = '//*[@id="reviews"]/div[2]/div[2]/div[3]/p[2]//text()'
